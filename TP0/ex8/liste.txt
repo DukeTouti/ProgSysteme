@@ -1,0 +1,205 @@
+Achard;28;M2
+Carrel;20;4A
+Voiron;21;PeiP 1
+Grenier;27;5A
+Petit;27;L1
+Nicolas;23;L3
+Gaillard;26;M1
+Mounier;22;4A
+Garnier;24;3A
+Morin;24;3A
+Nicolas;18;5A
+Simon;21;L3
+Gauthier;20;PeiP 2
+Berlioz;19;L3
+Bonnevie;28;3A
+Girard;18;3A
+Rousseau;23;L2
+Girard;18;5A
+Masson;28;3A
+Rostaing;25;L3
+Nicolas;18;PeiP 2
+Mollard;21;4A
+Martinez;27;5A
+Voiron;22;4A
+Giroud;21;L3
+Allemand;27;M2
+Carrel;23;L3
+Revol;22;L3
+Pinet;22;L3
+Guillot;25;L1
+Clement;28;5A
+Jacquet;20;M1
+Laurent;19;5A
+Giraud;18;M2
+Robin;20;L3
+Marchand;24;4A
+Buisson;18;L3
+Bernard;23;L3
+Burtin;23;3A
+Andre;24;L1
+Jacquet;28;L3
+Glenat;23;M1
+Mollard;20;4A
+Giraud;20;M2
+Ollier;24;4A
+Fournier;18;4A
+Garcia;27;M2
+Martin;20;L2
+Mounier;20;L2
+Perroud;23;M1
+Revol;23;4A
+Gamond;18;L2
+Jullien;26;4A
+Giraud;23;M2
+Andre;23;L1
+Chardon;20;M1
+Giroud;24;M2
+Jourdan;18;L3
+Allemand;21;L1
+Gaillard;18;M1
+Fontaine;18;5A
+Tardy;20;PeiP 1
+Chevalier;20;M1
+Mercier;28;L3
+Brunet;25;M2
+Garcia;24;L3
+Mercier;22;PeiP 2
+Rostaing;18;L1
+Allemand;27;PeiP 2
+Giraud;26;3A
+Nicolas;18;L3
+Guerin;21;M2
+Mathieu;21;PeiP 1
+Fayard;25;PeiP 1
+Monin;22;3A
+Fontaine;23;4A
+Mollard;23;L3
+Rostaing;27;L1
+Guerin;18;L2
+Teste;28;L3
+Chabert;25;M2
+Lambert;19;L1
+Glenat;23;PeiP 2
+Allemand;22;3A
+Bonnet;21;4A
+Fontaine;27;M1
+Glenat;24;4A
+Thomas;28;L1
+Duval;18;M1
+Mistral;23;M2
+Merle;19;4A
+Denis;26;L1
+Chabert;19;3A
+Michel;20;5A
+Gonnet;22;M2
+Mendes;25;M2
+Stendhal;26;5A
+Raffin;23;3A
+Laurent;25;PeiP 1
+Garcia;18;4A
+Clement;26;L1
+Tardy;20;M2
+Michel;20;L2
+Duval;18;M1
+Mollard;27;L1
+Pelloux;26;5A
+Fournier;24;L2
+Morin;20;5A
+Morin;27;L1
+Andre;23;L1
+Revol;19;M2
+Castel;20;L3
+Bernard;26;3A
+Martinez;21;4A
+Martin;23;4A
+Boyer;27;PeiP 2
+Gamond;28;PeiP 2
+Coste;22;3A
+Brunet;23;PeiP 2
+Mure;28;3A
+Martin;26;L1
+Mathieu;28;4A
+Roux;22;L2
+Tardy;28;L1
+Marchand;27;M2
+Jullien;27;L3
+Michel;18;4A
+Revol;23;L1
+Grenier;19;PeiP 1
+Brunet;26;L1
+Gaillard;23;L1
+Fayard;23;5A
+Robin;23;4A
+Berlioz;25;M2
+Teste;28;PeiP 1
+Rostaing;18;3A
+Glenat;21;M1
+Giraud;27;L2
+Peyron;21;M1
+Belledonne;21;PeiP 1
+Brunet;21;M1
+Monin;19;PeiP 2
+Mistral;27;L2
+Robin;18;4A
+Mercier;27;5A
+Simon;19;M1
+Belledonne;22;PeiP 2
+Rostaing;23;M1
+Bonnevie;25;PeiP 1
+Berlioz;25;4A
+Carrel;24;L3
+Bonnet;25;M2
+Chardon;26;5A
+Mercier;27;L3
+Duval;28;5A
+Thomas;20;PeiP 1
+Gautier;27;M2
+Bonnet;22;PeiP 2
+Stendhal;28;M2
+Garcia;18;4A
+Coste;19;M2
+Gonnet;27;L3
+Martin;19;4A
+David;27;L2
+Moreau;19;PeiP 1
+Mathieu;21;L3
+Guerin;25;5A
+Petit;23;5A
+Jacquet;25;PeiP 1
+Vincent;23;PeiP 1
+Girard;26;L1
+Marchand;23;L2
+Blanc;18;PeiP 2
+Burtin;28;L3
+Meynet;26;M2
+Berlioz;26;PeiP 2
+Bernard;21;4A
+Faure;19;PeiP 1
+Mendes;25;3A
+Mounier;20;M1
+Pelloux;19;L3
+Bonnet;20;4A
+Marchand;21;4A
+Morin;19;L1
+Gonnet;22;4A
+Allemand;18;M2
+Jullien;20;3A
+Grenier;28;M1
+Denis;20;L1
+Mistral;19;L1
+Pinet;24;3A
+Lambert;28;3A
+Carrel;26;L3
+Boyer;25;4A
+Lefebvre;23;L3
+Coste;19;L2
+Garcia;19;L1
+Giroud;20;L1
+Allemand;21;M1
+Blanc;26;4A
+Sami;22;L3
+Dumont;22;M1
+Lemaire;22;L2
+Camille;21;L3
+Dimitri;23;M2
