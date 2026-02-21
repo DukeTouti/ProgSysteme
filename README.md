@@ -1,3 +1,7 @@
 # Administration Réseaux et Programmation Système - CyberSecurity - UIR 3A - College Of Engineering & Architecure - Ecole Superieure d'Informatique et du Numérique
 
-TP1 : Rappel ;
+TP0 : Rappel ;
+
+TP1 : Processus, Alias, Complétion et Historique ;
+
+TP2 : C-Shell & Processus ;
