@@ -2,6 +2,8 @@ CC = gcc
 CFLAGS = -Wall -Wextra -std=c99 -g -D_POSIX_C_SOURCE=200809L
 TARGET = projet1
 
+F = ../tests/*
+
 SOURCES = main.c processus.c affichage.c fifo.c sjf.c srtf.c rr.c
 
 OBJECTS = $(SOURCES:.c=.o)
