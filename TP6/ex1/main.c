@@ -40,6 +40,15 @@ int main(int argc, char *argv[]) {
 	int max = chercher_max_sequentiel(tab, NE);
 	printf("[Séquentiel] Max = %d\n", max);
 
+	pthread_t *tids = malloc(NT * sizeof(pthread_t));
+	ThreadArgs *args = malloc(NT * sizeof(ThreadArgs));
+
+	creer_threads(tids, args, NT, NE, tab);
+	attendre_threads(tids, NT);
+
+	free(tids);
+	free(args);
 	free(tab);
+	
 	return 0;
 }

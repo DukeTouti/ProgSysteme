@@ -5,7 +5,17 @@
 
 static void *thread_fn(void *arg) {
 	ThreadArgs *a = (ThreadArgs *)arg;
-	printf("[Thread %d] démarré (indices %d à %d)\n", a->id, a->start, a->end - 1);
+	int max_local = a->tableau[a->start];
+
+	for (int i = a->start + 1; i < a->end; i++) {
+		if (a->tableau[i] > max_local) {
+			max_local = a->tableau[i];
+		}
+	}
+
+	printf("[Thread %d] indices %d à %d --> max local = %d\n",
+		a->id, a->start, a->end - 1, max_local);
+
 	return NULL;
 }
 
@@ -31,6 +41,5 @@ void attendre_threads(pthread_t *tids, int NT) {
 			fprintf(stderr, "Erreur pthread_join thread %d\n", i);
 			exit(1);
 		}
-		printf("[Thread %d] terminé\n", i);
 	}
 }
