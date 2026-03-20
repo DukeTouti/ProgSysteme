@@ -13,13 +13,11 @@ int main(int argc, char *argv[]) {
 
 	int NE = atoi(argv[1]);
 	int NT = atoi(argv[2]);
-	
-	/* vérification des paramètres */
+
 	if (NE <= 0 || NT <= 0) {
 		fprintf(stderr, "Erreur : NE et NT doivent être > 0\n");
 		return 1;
 	}
-	
 	if (NT > NE) {
 		fprintf(stderr, "Erreur : NT (%d) ne peut pas dépasser NE (%d)\n", NT, NE);
 		return 1;
@@ -37,8 +35,8 @@ int main(int argc, char *argv[]) {
 	}
 	printf("\n");
 
-	int max = chercher_max_sequentiel(tab, NE);
-	printf("[Séquentiel] Max = %d\n", max);
+	int max_seq = chercher_max_sequentiel(tab, NE);
+	printf("[Séquentiel] Max = %d\n", max_seq);
 
 	pthread_t *tids = malloc(NT * sizeof(pthread_t));
 	ThreadArgs *args = malloc(NT * sizeof(ThreadArgs));
@@ -46,9 +44,11 @@ int main(int argc, char *argv[]) {
 	creer_threads(tids, args, NT, NE, tab);
 	attendre_threads(tids, NT);
 
+	printf("[Threads]    Max global = %d\n", global_max);
+
+	pthread_mutex_destroy(&mutex);
 	free(tids);
 	free(args);
 	free(tab);
-	
 	return 0;
 }

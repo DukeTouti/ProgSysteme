@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 #include "threads.h"
+#include "max.h"
 
 static void *thread_fn(void *arg) {
 	ThreadArgs *a = (ThreadArgs *)arg;
@@ -15,6 +16,13 @@ static void *thread_fn(void *arg) {
 
 	printf("[Thread %d] indices %d à %d --> max local = %d\n",
 		a->id, a->start, a->end - 1, max_local);
+
+	/* section critique : mise à jour du maximum global */
+	pthread_mutex_lock(&mutex);
+	if (max_local > global_max) {
+		global_max = max_local;
+	}
+	pthread_mutex_unlock(&mutex);
 
 	return NULL;
 }
