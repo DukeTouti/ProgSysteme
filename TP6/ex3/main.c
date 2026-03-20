@@ -10,6 +10,10 @@ int main(void) {
 	srand(time(NULL));
 
 	store.valstock = STOCK_INITIAL;
+	pthread_mutex_init(&store.mutex, NULL);
+	pthread_cond_init(&store.cond_stock_bas, NULL);
+	pthread_cond_init(&store.cond_stock_dispo, NULL);
+
 	printf("[Main] Stock initial : %d\n", store.valstock);
 
 	pthread_t tid_magasin;
@@ -41,6 +45,10 @@ int main(void) {
 
 	pthread_cancel(tid_magasin);
 	pthread_join(tid_magasin, NULL);
+
+	pthread_mutex_destroy(&store.mutex);
+	pthread_cond_destroy(&store.cond_stock_bas);
+	pthread_cond_destroy(&store.cond_stock_dispo);
 
 	return 0;
 }
