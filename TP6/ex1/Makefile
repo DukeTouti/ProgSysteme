@@ -3,7 +3,7 @@ CFLAGS  = -Wall -Wextra -g
 LDFLAGS = -lpthread
 
 TARGET  = ex1
-SRCS    = main.c max.c
+SRCS    = main.c max.c threads.c
 OBJS    = $(SRCS:.c=.o)
 
 all: $(TARGET)

@@ -3,15 +3,27 @@
 #include <time.h>
 
 #include "max.h"
+#include "threads.h"
 
 int main(int argc, char *argv[]) {
-	if (argc != 2) {
-		fprintf(stderr, "Usage: %s <NE>\n", argv[0]);
+	if (argc != 3) {
+		fprintf(stderr, "Usage: %s <NE> <NT>\n", argv[0]);
 		return 1;
 	}
 
 	int NE = atoi(argv[1]);
-	//int NT = atoi(argv[2]);
+	int NT = atoi(argv[2]);
+	
+	/* vérification des paramètres */
+	if (NE <= 0 || NT <= 0) {
+		fprintf(stderr, "Erreur : NE et NT doivent être > 0\n");
+		return 1;
+	}
+	
+	if (NT > NE) {
+		fprintf(stderr, "Erreur : NT (%d) ne peut pas dépasser NE (%d)\n", NT, NE);
+		return 1;
+	}
 
 	srand(time(NULL));
 	int *tab = malloc(NE * sizeof(int));
