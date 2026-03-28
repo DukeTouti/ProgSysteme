@@ -1,0 +1,7 @@
+22:34:13.695934 ARP, Request who-has 192.168.10.10 tell 192.168.10.11, length 28
+22:34:13.695971 ARP, Reply 192.168.10.10 is-at 52:3e:e2:a4:a1:6e, length 28
+22:34:15.207967 ARP, Request who-has 192.168.10.12 tell 192.168.10.10, length 28
+22:34:15.207978 ARP, Request who-has 192.168.10.10 tell 192.168.10.12, length 28
+22:34:15.207999 ARP, Reply 192.168.10.12 is-at a2:20:8a:9b:73:eb, length 28
+22:34:15.208004 ARP, Reply 192.168.10.10 is-at 52:3e:e2:a4:a1:6e, length 28
+
